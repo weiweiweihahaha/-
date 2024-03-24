@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1711111382 source:d:\大二下\paralleling\实验\lab1\windows_x86_optimization_circulation\main.cpp
+	<iostream>
+	<windows.h>
+

@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1710906167 source:d:\大二下\paralleling\实验\lab1\matrixmultiply\main.cpp
+	<iostream>
+	<windows.h>
+

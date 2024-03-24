@@ -1,0 +1,109 @@
+117 [9372] INFO perfrun.launcher <> - Launcher main begin
+123 [9372] INFO perfrun.launcher <> - MessageCatalogInit finished
+123 [9372] INFO perfrun.launcher <> - Launcher instance created
+123 [9372] INFO perfrun.launcher <> - argc = 7; cmdline = D:\'\paralleling\vtune\2024.0\bin64\amplxe-runss.exe --ui-output-format xml --ui-output-fd 1096 --option-file D:\大二下\paralleling\实验\Analysisi\Analysis\r000hs1\config\runsa.options 
+139 [9372] INFO perfrun.launcher <> - New signal handler callback was added
+222 [9372] INFO perfrun.launcher <> - create msngr2::ICliToolContext
+223 [9372] INFO perfrun.launcher <> - create file finder object
+223 [9372] INFO perfrun.launcher <> - create a result directory: pattern = D:\大二下\paralleling\实验\Analysisi\Analysis\r000hs1 pid = 4294967295
+226 [9372] INFO perfrun.launcher <> - create data directory = D:\大二下\paralleling\实验\Analysisi\Analysis\r000hs1\data.0
+227 [9372] INFO perfrun.launcher <> - Creating the master collection flag
+237 [9372] INFO perfrun.launcher <> - Done creating the master collection flag
+237 [5416] INFO perfrun.launcher <> - plugin [remoteplug] was disabled because it doesn't support the given collection type.
+237 [5416] INFO perfrun.sdk <> - Allocating TMU :D:\大二下\paralleling\实验\Analysisi\Analysis\r000hs1\data.0\systemcollector-26204-LAPTOP-5LELTKLF.sc
+238 [5416] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+241 [5416] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+241 [5416] INFO perfrun.launcher <> - plugin [gpu] was disabled because it doesn't support the given collection type.
+241 [5416] INFO perfrun.launcher <> - plugin [etw.kernel] was disabled because it doesn't support the given collection type.
+241 [5416] INFO perfrun.launcher <> - plugin [etw.dx] was disabled because it doesn't support the given collection type.
+242 [5416] INFO perfrun.launcher <> - plugin [etw.wsa] was disabled because it doesn't support the given collection type.
+242 [5416] INFO perfrun.mrte <> - system-wide mode is 0
+242 [5416] INFO perfrun.mrte <> - Getting  mrte profiling environment ...
+261 [5416] INFO perfrun.mrte <> - INTEL_MRTE_DATA_DIR=D:\大二下\paralleling\实验\Analysisi\Analysis\r000hs1\data.0
+261 [5416] INFO perfrun.mrte <> - INTEL_MRTE_HOST_NAME=LAPTOP-5LELTKLF
+261 [5416] INFO perfrun.mrte <> - JAVA_TOOL_OPTIONS=-agentlib:amplxe_samplingmrte_javaprof_1.0
+261 [5416] INFO perfrun.mrte <> - PATH=D:\'\paralleling\vtune\2024.0\bin32\runtime;D:\'\paralleling\vtune\2024.0\bin64\runtime;D:\somesoftware\VMware\bin\;C:\Windows\System32\HWAudioDriverLibs;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Windows\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\c++的trial\Microsoft VS Code\bin\mingw64\bin;;:\code\mingw64\bin;D:\Windows Kits\10\Windows Performance Toolkit\;D:\nodejs\;%NODE_PATH;D:\somesoftware\Git\cmd;D:\somesoftware\tmd-gcc\bin;D:\somesoftware\Python\Scripts\;D:\somesoftware\Python\;C:\Users\weiweiwei\AppData\Local\Microsoft\WindowsApps;D:\vscode\Microsoft VS Code\bin;D:\code\mingw64\bin;D:\nodejs\node_global;D:\Microsoft VS Code\bin;D:\somesoftware\Python\PyCharm Community Edition 2023.3.2\bin
+261 [5416] INFO perfrun.mrte <> - COR_ENABLE_PROFILING=1
+261 [5416] INFO perfrun.mrte <> - COR_PROFILER={AA5E4821-E3B1-479c-B7FF-5AD047D22CED}
+261 [5416] INFO perfrun.mrte <> - COMPLUS_ProfAPI_ProfilerCompatibilitySetting=EnableV2Profiler
+261 [5416] INFO perfrun.mrte <> - CORECLR_ENABLE_PROFILING=1
+261 [5416] INFO perfrun.mrte <> - CORECLR_PROFILER={AA5E4821-E3B1-479c-B7FF-5AD047D22CED}
+261 [5416] INFO perfrun.mrte <> - CORECLR_PROFILER_PATH=D:\'\paralleling\vtune\2024.0\bin64/amplxe_samplingmrte_clrprof_1.0.dll
+261 [5416] INFO perfrun.mrte <> - INTEL_MRTE_PROFILER_MODE=mixed
+261 [5416] INFO perfrun.mrte <> - Data directory: D:\大二下\paralleling\实验\Analysisi\Analysis\r000hs1\data.0
+261 [5416] INFO perfrun.mrte <> - Mrte plugin is initialized
+261 [5416] INFO perfrun.launcher <> - plugin [emon] was disabled because it doesn't support the given collection type.
+261 [5416] INFO perfrun.launcher <> - plugin [cuscol] was disabled because it doesn't support the given collection type.
+261 [5416] INFO perfrun.launcher <> - plugin [stdsrc] was disabled because it doesn't support the given collection type.
+262 [5416] INFO perfrun.sdk <> - runCmd: D:\'\paralleling\vtune\2024.0\bin64\sep.exe -dry-run -ec CPU_CLK_UNHALTED.DISTRIBUTED:sa=2000003:precise=yes,CPU_CLK_UNHALTED.REF_TSC:sa=1100000:precise=yes,CPU_CLK_UNHALTED.THREAD:sa=2000003:precise=yes,FP_ARITH_INST_RETIRED.128B_PACKED_DOUBLE:sa=100003:precise=yes,FP_ARITH_INST_RETIRED.128B_PACKED_SINGLE:sa=100003:precise=yes,FP_ARITH_INST_RETIRED.256B_PACKED_DOUBLE:sa=100003:precise=yes,FP_ARITH_INST_RETIRED.256B_PACKED_SINGLE:sa=100003:precise=yes,FP_ARITH_INST_RETIRED.512B_PACKED_DOUBLE:sa=100003:precise=yes,FP_ARITH_INST_RETIRED.512B_PACKED_SINGLE:sa=100003:precise=yes,FP_ARITH_INST_RETIRED.SCALAR_DOUBLE:sa=100003:precise=yes,FP_ARITH_INST_RETIRED.SCALAR_SINGLE:sa=100003:precise=yes,INST_RETIRED.ANY:sa=1100000:precise=yes,TOPDOWN.SLOTS:sa=2000003:precise=yes,UOPS_EXECUTED.THREAD:sa=2000003:precise=yes,UOPS_EXECUTED.X87:sa=2000003:precise=yes,UOPS_RETIRED.SLOTS:sa=2000003:precise=yes,MEM_LOAD_RETIRED.L1_HIT:sa=1000003:precise=yes,MEM_LOAD_RETIRED.L1_MISS:sa=200003:precise=yes,MEM_LOAD_RETIRED.L2_HIT:sa=200003:precise=yes,MEM_LOAD_RETIRED.L2_MISS:sa=100021:precise=yes,MEM_LOAD_RETIRED.L3_HIT:sa=100021:precise=yes,MEM_LOAD_RETIRED.L3_MISS:sa=50021:precise=yes -experimental
+268 [5416] INFO perfrun.sdk <> - runCmd started PID 22712
+516 [5416] INFO perfrun.launcher <> - plugin [vtsspp] was disabled because it doesn't support the given collection type.
+516 [5416] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+516 [5416] INFO perfrun.launcher <> - plugin [aoclprofile] was disabled because it doesn't support the given collection type.
+516 [5416] INFO perfrun.tpss <> - initialize tpss controller
+516 [5416] INFO perfrun.launcher <> - plugin [tpss] was disabled because it doesn't support the given collection type.
+516 [5416] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+516 [5416] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+516 [5416] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+516 [5416] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+516 [5416] INFO perfrun.launcher <> - plugin [power] was disabled because it doesn't support the given collection type.
+516 [5416] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+516 [5416] INFO perfrun.launcher <> - plugin [ipmwatch] was disabled because it doesn't support the given collection type.
+516 [5416] INFO perfrun.launcher <> - plugin [os_counters] was disabled because it doesn't support the given collection type.
+516 [5416] INFO perfrun.launcher <> - plugin [l0_metrics] was disabled because it doesn't support the given collection type.
+517 [9372] INFO perfrun.launcher <> - set environment variable: PATH = D:\'\paralleling\vtune\2024.0\bin32\runtime;D:\'\paralleling\vtune\2024.0\bin64\runtime;D:\somesoftware\VMware\bin\;C:\Windows\System32\HWAudioDriverLibs;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Windows\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\c++的trial\Microsoft VS Code\bin\mingw64\bin;;:\code\mingw64\bin;D:\Windows Kits\10\Windows Performance Toolkit\;D:\nodejs\;%NODE_PATH;D:\somesoftware\Git\cmd;D:\somesoftware\tmd-gcc\bin;D:\somesoftware\Python\Scripts\;D:\somesoftware\Python\;C:\Users\weiweiwei\AppData\Local\Microsoft\WindowsApps;D:\vscode\Microsoft VS Code\bin;D:\code\mingw64\bin;D:\nodejs\node_global;D:\Microsoft VS Code\bin;D:\somesoftware\Python\PyCharm Community Edition 2023.3.2\bin
+517 [9372] INFO perfrun.launcher <> - set environment variable: INTEL_LIBITTNOTIFY32 = D:\'\paralleling\vtune\2024.0\bin32\runtime\ittnotify_collector.dll
+517 [9372] INFO perfrun.launcher <> - set environment variable: INTEL_LIBITTNOTIFY64 = D:\'\paralleling\vtune\2024.0\bin64\runtime\ittnotify_collector.dll
+517 [9372] INFO perfrun.launcher <> - set environment variable: INTEL_ITTNOTIFY_GROUPS = 
+518 [9372] INFO perfrun.launcher <> - set environment variable: INTEL_JIT_PROFILER32 = D:\'\paralleling\vtune\2024.0\bin32\runtime\ittnotify_collector.dll
+518 [9372] INFO perfrun.launcher <> - set environment variable: INTEL_JIT_PROFILER64 = D:\'\paralleling\vtune\2024.0\bin64\runtime\ittnotify_collector.dll
+518 [9372] INFO perfrun.launcher <> - set environment variable: ENABLE_JITPROFILING = 1
+518 [9372] INFO perfrun.launcher <> - set environment variable: CL_CONFIG_USE_VTUNE = True
+518 [9372] INFO perfrun.launcher <> - set environment variable: KMP_FORKJOIN_FRAMES = 0
+518 [9372] INFO perfrun.launcher <> - set environment variable: KMP_FORKJOIN_FRAMES_MODE = 0
+519 [9372] INFO perfrun.launcher <> - set environment variable: INTEL_MRTE_DATA_DIR = D:\大二下\paralleling\实验\Analysisi\Analysis\r000hs1\data.0
+519 [9372] INFO perfrun.launcher <> - set environment variable: INTEL_MRTE_HOST_NAME = LAPTOP-5LELTKLF
+519 [9372] INFO perfrun.launcher <> - set environment variable: JAVA_TOOL_OPTIONS = -agentlib:amplxe_samplingmrte_javaprof_1.0
+519 [9372] INFO perfrun.launcher <> - set environment variable: PATH = D:\'\paralleling\vtune\2024.0\bin32\runtime;D:\'\paralleling\vtune\2024.0\bin64\runtime;D:\somesoftware\VMware\bin\;C:\Windows\System32\HWAudioDriverLibs;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Windows\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\c++的trial\Microsoft VS Code\bin\mingw64\bin;;:\code\mingw64\bin;D:\Windows Kits\10\Windows Performance Toolkit\;D:\nodejs\;%NODE_PATH;D:\somesoftware\Git\cmd;D:\somesoftware\tmd-gcc\bin;D:\somesoftware\Python\Scripts\;D:\somesoftware\Python\;C:\Users\weiweiwei\AppData\Local\Microsoft\WindowsApps;D:\vscode\Microsoft VS Code\bin;D:\code\mingw64\bin;D:\nodejs\node_global;D:\Microsoft VS Code\bin;D:\somesoftware\Python\PyCharm Community Edition 2023.3.2\bin
+520 [9372] INFO perfrun.launcher <> - set environment variable: COR_ENABLE_PROFILING = 1
+520 [9372] INFO perfrun.launcher <> - set environment variable: COR_PROFILER = {AA5E4821-E3B1-479c-B7FF-5AD047D22CED}
+520 [9372] INFO perfrun.launcher <> - set environment variable: COMPLUS_ProfAPI_ProfilerCompatibilitySetting = EnableV2Profiler
+521 [9372] INFO perfrun.launcher <> - set environment variable: CORECLR_ENABLE_PROFILING = 1
+521 [9372] INFO perfrun.launcher <> - set environment variable: CORECLR_PROFILER = {AA5E4821-E3B1-479c-B7FF-5AD047D22CED}
+521 [9372] INFO perfrun.launcher <> - set environment variable: CORECLR_PROFILER_PATH = D:\'\paralleling\vtune\2024.0\bin64/amplxe_samplingmrte_clrprof_1.0.dll
+522 [9372] INFO perfrun.launcher <> - set environment variable: INTEL_MRTE_PROFILER_MODE = mixed
+522 [9372] INFO perfrun.launcher <> - RpcServer: run RPC server to handle requests
+531 [9372] INFO perfrun.sdk <> - IProcessUtil: the given executable 'D:\大二下\paralleling\实验\lab1\MatrixMultiply\bin\Debug\MatrixMultiply.exe' is valid.
+531 [9372] INFO perfrun.launcher <> - Launcher: command line to start before modification = D:\大二下\paralleling\实验\lab1\MatrixMultiply\bin\Debug\MatrixMultiply.exe
+531 [9372] INFO perfrun.launcher <> - Launcher: command line to start after modification = D:\大二下\paralleling\实验\lab1\MatrixMultiply\bin\Debug\MatrixMultiply.exe
+531 [9372] INFO perfrun.launcher <> - ProcessCreator object was created
+537 [9372] INFO perfrun.launcher <> - Launcher: the process was started in suspend mode
+558 [5416] INFO perfrun.itt <> - start itt controller for pid #17968
+560 [5416] INFO perfrun.sdk <> - runCmd: D:\'\paralleling\vtune\2024.0\bin64\sep.exe -start -experimental -uem timer=10 -em trigger=CPU_CLK_UNHALTED.REF_TSC factor=5 -ebc -out D:\大二下\paralleling\实验\Analysisi\Analysis\r000hs1\data.0\sep1528.20240320T211014.099796 -ec INST_RETIRED.ANY:sa=1100000:precise=yes,CPU_CLK_UNHALTED.THREAD:sa=2000003:precise=yes,CPU_CLK_UNHALTED.REF_TSC:sa=1100000:precise=yes,TOPDOWN.SLOTS:sa=2000003:precise=yes,MEM_LOAD_RETIRED.L1_HIT:sa=1000003:precise=yes,MEM_LOAD_RETIRED.L1_MISS:sa=200003:precise=yes,MEM_LOAD_RETIRED.L2_HIT:sa=200003:precise=yes,MEM_LOAD_RETIRED.L2_MISS:sa=100021:precise=yes,CPU_CLK_UNHALTED.DISTRIBUTED:sa=2000003:precise=yes,FP_ARITH_INST_RETIRED.128B_PACKED_DOUBLE:sa=100003:precise=yes,FP_ARITH_INST_RETIRED.128B_PACKED_SINGLE:sa=100003:precise=yes,FP_ARITH_INST_RETIRED.256B_PACKED_DOUBLE:sa=100003:precise=yes,MEM_LOAD_RETIRED.L3_HIT:sa=100021:precise=yes,MEM_LOAD_RETIRED.L3_MISS:sa=50021:precise=yes,FP_ARITH_INST_RETIRED.256B_PACKED_SINGLE:sa=100003:precise=yes,FP_ARITH_INST_RETIRED.512B_PACKED_DOUBLE:sa=100003:precise=yes,FP_ARITH_INST_RETIRED.512B_PACKED_SINGLE:sa=100003:precise=yes,FP_ARITH_INST_RETIRED.SCALAR_DOUBLE:sa=100003:precise=yes,FP_ARITH_INST_RETIRED.SCALAR_SINGLE:sa=100003:precise=yes,UOPS_EXECUTED.THREAD:sa=2000003:precise=yes,UOPS_EXECUTED.X87:sa=2000003:precise=yes,UOPS_RETIRED.SLOTS:sa=2000003:precise=yes, -d 0 -uem factor=10
+567 [5416] INFO perfrun.sdk <> - runCmd started PID 28332
+1570 [9372] INFO perfrun.launcher <> - Launcher: all plugins were started
+1570 [9372] INFO perfrun.launcher <> - DirectoryMonitor object was created
+1570 [9372] INFO perfrun.launcher <> - DirectoryMonitor: a callback was added
+1570 [9372] INFO perfrun.launcher <> - DirectoryMonitor was started with pingTime = 1000
+1570 [9372] INFO perfrun.launcher <> - DeadlineTimer is going to be constructed
+1571 [9372] INFO perfrun.launcher <> - DeadlineTimer: a callback was added
+1582 [9372] INFO perfrun.launcher <> - Launcher: resume the profiled application and  wait its termination or stop command
+2812 [9372] INFO perfrun.launcher <> - Launcher: the profiled application was terminated  with exit code = 0
+2819 [5416] INFO perfrun.itt <> - detach itt controller
+2819 [5416] INFO perfrun.itt <> - detach itt controller done
+2819 [5416] INFO perfrun.sdk <> - runCmd: D:\'\paralleling\vtune\2024.0\bin64\sep.exe -stop
+2825 [5416] INFO perfrun.sdk <> - runCmd started PID 3100
+3636 [5416] INFO perfrun.sepdk <> - Sampling successfully stopped.
+WARNING: Windows Defender Antivirus may interfere PMU counter accesses which can fail to collect data in the collection. Please turn off Real Time Protection toggle switch and re-run the collection. Refer to SEP User Guide for more details.
+
+3636 [5416] INFO perfrun.sepdk <> - Waiting for main SEP process (28332) to finish...
+3636 [5416] INFO perfrun.sepdk <> - Main SEP process finished
+3637 [5416] INFO perfrun.sdk <> - De-allocating TMU: D:\大二下\paralleling\实验\Analysisi\Analysis\r000hs1\data.0\systemcollector-26204-LAPTOP-5LELTKLF.sc
+3650 [5416] INFO perfrun.system <> - closed the system trace file: D:\大二下\paralleling\实验\Analysisi\Analysis\r000hs1\data.0\systemcollector-26204-LAPTOP-5LELTKLF.sc
+3650 [9372] INFO perfrun.launcher <> - Launcher: all plugins were stopped.
+3650 [9372] INFO perfrun.launcher <> - DeadlineTimer is going to be destroyed
+3651 [9372] INFO perfrun.launcher <> - DeadlineTimer was destroyed
+3651 [9372] INFO perfrun.launcher <> - DirectoryMonitor object was destroyed
+3651 [9372] WARN perfrun.launcher <> - Stop command is ignored because it is received when collection is already stopped, at file: vcs\perfrun1\launcher\src\command_handler.cpp:226
+3652 [9372] INFO perfrun.launcher <> - Application exit code: 0
+3652 [9372] INFO perfrun.launcher <> - Exit code: 0
